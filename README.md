@@ -48,3 +48,12 @@ En está versión hemos revisado y arreglado posibles errores.
  >[!NOTE]
  >
  >Hemos empezado ha implementar un carrusel de fotos además de música de fondo
+
+#### ***Versión Final del Proyecto***
+  
+Esta versión ya está terminada con todos los cambios
+
+ >[!NOTE]
+ >
+ >En un futuro estamos pensando añadir una API donde te salgan los ultimos twetts
+
