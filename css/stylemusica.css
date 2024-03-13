@@ -1,0 +1,123 @@
+@font-face {
+  font-family: turntable;
+  src: url(../fonts/turn-table/turntable_tt.ttf);
+}
+
+body {
+  background-image: url(https://www.lisanews.org/wp-content/uploads/2024/01/Disenos-de-LISA-News-15-14.png);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: 'Calibri';
+
+}
+#encabezado {
+  background-image: url(https://i.pinimg.com/736x/a4/f2/44/a4f244751dfb0e02cd98c34e1bc38fa7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5em;
+
+  font-family: turntable;
+}
+.recuadro{
+  display: flex;
+
+  margin-top: 4vh;
+
+  justify-content: center;
+  align-items: center;
+  border: 3px solid white;
+  border-radius: 8px;
+  padding: 1%;
+  color: white;
+}
+
+.logo{
+  border: 3px solid white;
+  border-radius: 50%;
+  float: left;
+  width: 12em;
+  height: 12em;
+}
+
+.texto {
+  font-size: 3.5em;
+  padding-left: 1%;
+} 
+
+a{
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+#divmtv {
+  display: flex;
+
+  background-image: url(https://estudioroxo.com.br/wp-content/uploads/2021/08/estudio-roxo-blog-pulsar-banner-mtv-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  justify-content: start;
+  align-items: center;
+}
+#divukf {
+  display: flex;
+
+  background-image: url(https://assets.audiomack.com/ukf/ba4975548d7df9acf575ca24b406abdc5a142a2987d41bd2daf000866998a6f1.jpeg?width=1440);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  justify-content: start;
+  align-items: center;
+}
+#div40 {
+  display: flex;
+
+  background-image: url(https://cdn-profiles.tunein.com/s148321/images/bannerx.jpg?t=636942973140000000);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  justify-content: start;
+  align-items: center;
+}
+#divkiss {
+  display: flex;
+
+  background-image: url(https://www.kissfm.es/wp-content/uploads/2022/04/20KISS_web-2000x838.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  justify-content: start;
+  align-items: center;
+}
+
+*{
+  -webkit-text-stroke: 1.5px black;
+}
+.floating-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+ }
+ 
+ .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #06073f;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1.5px solid white;
+  -webkit-text-stroke: 0;
+ }
+ 

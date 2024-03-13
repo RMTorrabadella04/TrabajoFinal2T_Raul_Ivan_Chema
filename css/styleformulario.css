@@ -1,0 +1,197 @@
+/*pagina*/
+body {
+  background-image: url(https://www.lisanews.org/wp-content/uploads/2024/01/Disenos-de-LISA-News-15-14.png);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+@font-face {
+  font-family: turntable;
+  src: url(../fonts/turn-table/turntable_tt.ttf);
+}
+
+*{
+  font-family: 'Calibri';
+  font-size: 1.18em;
+  
+}
+
+
+
+/*FORMULARIO*/
+.container {
+  max-width: 500px;
+  margin-top: 2%;
+  margin-left: 10%;
+  padding: 20px;
+  background-color: rgb(175, 171, 171);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: black;
+  border-radius: 5px;
+  border: 6px solid rgb(255, 255, 255);
+}
+
+/* FORMULARIO EXTRA */
+
+#form_extra{
+
+  margin-top: -25%;
+  margin-left: 40%;
+
+}
+
+#form_extra img{
+  margin-top: 5%;
+  margin-bottom: 2%;
+  border: 6px solid rgb(156, 149, 149);
+  border-radius: 50%;
+}
+
+h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+
+input[type="text"],
+input[type="email"],
+#asunto, #nombre, #email{
+  width: 100%;
+  height: 5vh;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  max-width: 100%;
+  max-height: 15vh;
+  font-size: 0.5em;
+}
+
+#mensaje{
+  width: 100%;
+  height: 10vh;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  max-width: 100%;
+  max-height: 15vh;
+  font-size: 0.5em;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #06073f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8em;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+h2{
+  font-size: 1.5em;
+}
+
+/*CLASES/ID*/
+.datoscontacto {
+  border: 6px solid rgb(206, 202, 202);
+  width: 40%;
+  height: 30vh;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 3%;
+  float: left;
+  background-color: rgb(53, 53, 53);
+}
+#encabezado {
+  border: 6px solid rgb(206, 202, 202);
+  border-radius: 5px;
+  text-align: center;
+  font-size: 4em;
+  background-color: rgb(53, 53, 53);
+}
+
+#encabezado p, .rrss #titulo2 {
+  font-family: turntable;
+}
+
+.iconos {
+  width: 30%;
+  height: 60%;
+}
+
+.mapa {
+  margin-top: 5%;
+  margin-left: 50%;
+  margin-bottom: 5%;
+  margin-right: 3%;
+}
+
+.mapa iframe{
+  border: 6px solid rgb(206, 202, 202);
+  border-radius: 5px;
+}
+
+.mapa iframe {
+    width: 100%;
+    height: 30vh;
+}
+
+.rrss {
+    border: 6px solid rgb(206, 202, 202);
+    border-radius: 5px;
+    text-align: center;
+    width: 50%;
+    margin-top: 5%;
+    margin: 0 auto; 
+    background-color: rgb(53, 53, 53);
+}
+
+.redes {
+  border: 6px solid rgb(206, 202, 202);
+  border-radius: 5px;
+  text-align: center;
+  background-color: rgb(53, 53, 53);
+  margin-top: 5%;
+  display: grid; /* Activar display grid */
+  grid-template-columns: repeat(3, 1fr); /* Tres columnas iguales */
+  grid-gap: 10px; /* Espacio entre columnas */
+}
+.floating-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+ }
+ 
+ .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #06073f;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1.5px solid white;
+  font-size: 0.60em;
+ }
+ 

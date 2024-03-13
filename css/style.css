@@ -1,0 +1,185 @@
+/* Cambio color del fondo */
+
+@font-face {
+  font-family: turntable;
+  src: url(../fonts/turn-table/turntable_tt.ttf);
+}
+
+body {
+  background-image: url(https://www.lisanews.org/wp-content/uploads/2024/01/Disenos-de-LISA-News-15-14.png);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+/* Imagen Circular de Ciudad */
+
+#imagen1 {
+  margin-top: 2%;
+  margin-left: 3%;
+  block-size: 25vh;
+  background-color: white;
+  border-radius: 20vh;
+  border: 6px solid rgb(206, 202, 202);
+  float: left;
+}
+
+/* Imagen Circular de Deportes */
+
+#imagen2 {
+  margin-top: 2%;
+  margin-left: 3%;
+  block-size: 25vh;
+  background-color: white;
+  border-radius: 20vh;
+  border: 6px solid rgb(206, 202, 202);
+  float: left;
+}
+
+/* Imagen Circular de Musica */
+
+#imagen3 {
+  margin-top: 2%;
+  margin-left: 3%;
+  block-size: 25vh;
+  background-color: white;
+  border-radius: 20vh;
+  border: 6px solid rgb(206, 202, 202);
+  float: left;
+}
+
+/* Imagen Circular de Politica */
+
+#imagen4 {
+  margin-top: 2%;
+  margin-left: 3%;
+  block-size: 25vh;
+  background-color: white;
+  border-radius: 20vh;
+  border: 6px solid rgb(206, 202, 202);
+  float: left;
+}
+
+/* Imagen Circular de Tecnologia */
+
+#imagen5 {
+  margin-top: 2%;
+  margin-left: 3%;
+  block-size: 25vh;
+  background-color: white;
+  border-radius: 20vh;
+  border: 6px solid rgb(206, 202, 202);
+  float: left;
+}
+
+/* Titulo */
+
+#encabezado {
+  background-image: url(https://m.media-amazon.com/images/I/61J8rKkrfuL._AC_UF894,1000_QL80_.jpg);
+  border-radius: 8px;
+  border: 3px solid white;
+  margin-top: 1%;
+  margin-bottom: 0.4%;
+}
+#titulo {
+  margin-left: 46%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  width: 15%;
+  height: 15%;
+  border-radius: 8px;
+}
+#imagendiv {
+  margin-top: 5vh;
+}
+
+/* Marcos Rectangulares de las opciones */
+
+.marcos {
+  border-radius: 8px;
+  border: 3px solid white;
+  width: 90%;
+  height: 30vh;
+  margin: auto; /* Esto es necesario para que el centrado funcione correctamente */
+  margin-top: 2%;
+ }
+
+p {
+  font-size: 10vh;
+  text-align: center;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+/* Banners de fondo */
+
+/* Politica */
+
+#politica {
+  background-image: url(https://media.realinstitutoelcano.org/wp-content/uploads/2023/10/20231026-policy-paper-politica-europea-espana-hero1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Tecnologia */
+
+#tecnologia {
+  background-image: url(https://ravel.com.br/blog/wp-content/uploads/2023/07/banner-meio-blog-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Ciudad */
+
+#ciudad {
+  background-image: url(https://static.vecteezy.com/system/resources/previews/002/776/724/non_2x/banner-city-landscape-of-silhouettes-vector.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#deportes {
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/back_pic/04/07/48/465811cc88e057c.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#musica {
+  background-image: url(https://www.shutterstock.com/image-photo/music-notes-background-musical-concept-600nw-2265598575.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Pie de Pagina con Formulario */
+
+#piepagina {
+  display: flex;
+
+  width: 100%;
+  height: 10vh;
+  background-color: rgb(74, 90, 99);
+
+  border: 3px solid white;
+  border-radius: 8px;
+
+  margin-top: 1.5%;
+
+  justify-content: center;
+  align-items: center;
+
+  font-size: 4vh;
+
+  color: white;
+
+  -webkit-text-stroke: 0 black;
+}
+* {
+  -webkit-text-stroke: 1.5px black;
+  box-sizing: border-box;
+  font-family: turntable;
+}

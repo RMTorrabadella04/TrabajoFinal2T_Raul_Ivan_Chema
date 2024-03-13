@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostrar Tweets</title>
+</head>
+<body>
+    <div id="tweets-container"></div>
+
+    <script>
+        // Código para hacer la solicitud a la API de Twitter y mostrar los tweets
+        const tweetsContainer = document.getElementById('tweets-container');
+
+        // Aquí debes usar tus propias credenciales
+        const bearerToken = 'AAAAAAAAAAAAAAAAAAAAAD%2BWsgEAAAAAhZX8yFowvy2nhH%2BtwEJbs2%2BIJeM%3DlTEhdzay4O50Hjus9XZLjB3kak2A0XTh6Jwzicp4fJ4nB6P1xq'; // Puedes obtener el bearer token usando OAuth 2.0
+
+        // Endpoint para obtener los tweets más recientes de una cuenta
+        const apiUrl = 'https://api.twitter.com/1.1/statuses/user_timeline.json';
+
+        // Parámetros de la solicitud (por ejemplo, el nombre de usuario de la cuenta de marca)
+        const params = {
+            'screen_name': '@TheTopComics', // Reemplaza con el nombre de usuario de la cuenta de MTV
+            'count': 10 // Número máximo de tweets a obtener
+        };
+
+        // Construye la URL con los parámetros
+        const url = new URL(apiUrl);
+        url.search = new URLSearchParams(params).toString();
+
+        // Realiza la solicitud a la API de Twitter
+        fetch(url, {
+            method: 'GET',
+            headers: {
+                'Authorization': `Bearer ${bearerToken}`
+            }
+        })
+        .then(response => response.json())
+        .then(data => {
+            // Procesa la respuesta y muestra los tweets en la página
+            data.forEach(tweet => {
+                tweetsContainer.innerHTML += `<p>${tweet.text}</p>`; // Muestra el texto del tweet
+            });
+        })
+        .catch(error => {
+            console.error('Error al obtener los tweets:', error);
+        });
+    </script>
+</body>
+</html>
+

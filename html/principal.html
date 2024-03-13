@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="../img/cnencabezado.jpg">
+    <link rel="stylesheet" href="../css/style.css" type="text/css" />
+    <title>CENTRAL NEWS</title>
+    <script src="../js/principal.js"></script>
+    
+  </head>
+  <body>
+    <audio id="miMusica">
+      <source src="../sound/salioelsol.mp3" type="audio/mp3">
+    </audio>
+  
+    <button onclick="reproducirMusica()">Reproducir</button>
+    <button onclick="pausarMusica()">Pausar</button>
+    <button onclick="reiniciarMusica()">Reiniciar</button>
+
+  
+
+    <!-- Encabezado con Titulo -->
+
+    <div id="encabezado">
+      <a href="centralnews.html" id>
+        <img src="../img/cnencabezado.jpg" id="titulo"  onmouseover="agrandarImagen()" onmouseout="restablecerImagen()"/>
+      </a>
+    </div>
+
+
+      <!-- Seccion de Actualidad -->
+
+      <a href="Actualidad.html">
+        <div class="marcos" id="ciudad">
+          <img src="../img/ciudad.png" id="imagen1"/>
+           <p>Actualidad ciudad</p>
+        </div>
+      </a>
+
+     <br>
+
+      <!-- Seccion de Deportes -->
+
+      <a href="Deportes.html">
+        <div class="marcos" id="deportes">
+          <img src="../img/deportes.png" id="imagen2"/>
+          <p>Deportes</p>
+        </div>
+      </a>
+
+      <br> 
+
+      <!-- Seccion de Musica -->
+
+      <a href="musica.html">
+        <div class="marcos" id="musica">
+          <img src="../img/musica.png" id="imagen3"/>
+          <p>Música</p>
+        </div>
+      </a>
+    
+      <br>
+
+      <!-- Seccion de Politica -->
+
+      <a href="Politica.html">
+        <div class="marcos" id="politica">
+          <img src="../img/politica.png" id="imagen4"/>
+          <p>Política</p>
+        </div>
+      </a>
+      
+      <br>
+
+      <!-- Seccion de Tecnologia -->
+
+      <a href="Tecnologia.html">
+        <div class="marcos" id="tecnologia">
+          <img src="../img/tecnologia.png" id="imagen5"/>
+          <p>Tecnología</p>
+        </div>
+      </a>
+
+      <!-- Formulario Central News -->
+
+      <a href="Formulario.html">
+        <div id="piepagina">CONTACTO</div>
+      </a>
+
+    </div>
+  </body>
+</html>

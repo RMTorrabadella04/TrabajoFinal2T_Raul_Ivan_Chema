@@ -1,0 +1,128 @@
+@font-face {
+  font-family: turntable;
+  src: url(../fonts/turn-table/turntable_tt.ttf);
+}
+
+body {
+    background-image: url(https://www.lisanews.org/wp-content/uploads/2024/01/Disenos-de-LISA-News-15-14.png);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: 'Calibri';
+  
+  }
+  #encabezado {
+    background-image: url(https://donana.com/wp-content/uploads/2017/02/banner-sevilla-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  font-size: 5em;
+
+  font-family: turntable;
+  }
+  .recuadro{
+    display: flex;
+  
+    margin-top: 4vh;
+  
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    border-radius: 8px;
+    padding: 1%;
+    color: white;
+  }
+  
+  .logo{
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+    width: 12em;
+    height: 12em;
+  }
+  
+  .texto {
+    font-size: 3.5em;
+    padding-left: 1%;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: white;
+  }
+
+  #divcorreo {
+    display: flex;
+
+    background-color: rgb(128, 18, 78);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    justify-content: start;
+    align-items: center;
+    
+  }
+  #divdiario {
+    display: flex;
+
+    background-color: rgb(99, 142, 14);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    justify-content: start;
+    align-items: center;
+    
+  }
+  #divabc {
+    display: flex;
+
+    background-color: rgb(36, 148, 185);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    justify-content: start;
+    align-items: center;
+    
+
+  }
+  #divs {
+    display: flex;
+
+    background-color: rgb(35, 16, 104);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    justify-content: start;
+    align-items: center;
+
+  }
+  
+  *{
+    -webkit-text-stroke: 1.5px black;
+  }
+  .floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+   }
+   
+   .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #06073f;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1.5px solid white;
+    -webkit-text-stroke: 0;
+   }
+   

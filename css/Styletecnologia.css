@@ -1,0 +1,125 @@
+@font-face {
+  font-family: turntable;
+  src: url(../fonts/turn-table/turntable_tt.ttf);
+}
+
+body {
+  background-image: url(https://www.lisanews.org/wp-content/uploads/2024/01/Disenos-de-LISA-News-15-14.png);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: 'Calibri';
+}
+#encabezado {
+  background-image: url(https://ayudaspri.juntaex.es/img/portal/cabecera/guadiana_banner1_corto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5em;
+  font-family: 'turntable';
+}
+
+.recuadro {
+  display: flex;
+
+  margin-top: 4vh;
+
+  justify-content: center;
+  align-items: center;
+  border: 3px solid white;
+  border-radius: 8px;
+  padding: 1%;
+  color: white;
+}
+
+.logo {
+  border: 3px solid white;
+  border-radius: 50%;
+  float: left;
+  width: 12em;
+  height: 12em;
+}
+
+.texto {
+  font-size: 3.5em;
+  padding-left: 1%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+#divsony {
+  background-image: url(https://tecnoduero.com/wp-content/uploads/2022/01/bravia-2022.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+ 
+}
+#divplay {
+  background-image: url(https://pbs.twimg.com/media/E8g4FYiXMAQRYe6.jpg:large);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+#divxbox {
+  background-image: url(https://m.media-amazon.com/images/S/aplus-media-library-service-media/bafde3fa-c438-4f51-a1a0-e25800f7990a.__CR0,0,2910,900_PT0_SX970_V1___.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+#divapple {
+  background-image: url(https://connect-assets.prosple.com/cdn/ff/nTdICxkqT2KUxU3eVUGU_WpmhbNDN2uKNVYPvAAWmTI/1656254894/public/2022-06/banner-apple-1786x642-2022.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+*{
+  -webkit-text-stroke: 1.5px black;
+}
+.floating-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+ }
+ 
+ .btn {
+  -webkit-text-stroke: 0;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #06073f;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1em;
+  border-radius: 5px;
+  border: 1.5px solid white;
+
+ }
+ 

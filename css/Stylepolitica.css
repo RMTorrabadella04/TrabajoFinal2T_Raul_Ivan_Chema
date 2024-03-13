@@ -1,0 +1,119 @@
+@font-face {
+  font-family: turntable;
+  src: url(../fonts/turn-table/turntable_tt.ttf);
+}
+
+body {
+  background-image: url(https://www.lisanews.org/wp-content/uploads/2024/01/Disenos-de-LISA-News-15-14.png);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: 'Calibri';
+}
+#encabezado {
+  background-image: url(https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2020/03/11/el-congreso-sin-diputados.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5em;
+
+  font-family: turntable;
+}
+
+.recuadro {
+  display: flex;
+
+  margin-top: 4vh;
+
+  justify-content: center;
+  align-items: center;
+  border: 3px solid white;
+  border-radius: 8px;
+  padding: 1%;
+  color: white;
+}
+
+.logo {
+  border: 3px solid white;
+  border-radius: 50%;
+  float: left;
+  width: 12em;
+  height: 12em;
+}
+
+.texto {
+  font-size: 3.5em;
+  padding-left: 1%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+#divpsoe {
+  background-color: rgb(141, 8, 8);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+#divpp {
+  background-color: rgb(11, 11, 129);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+#divvox {
+  background-color: rgb(7, 80, 7);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+#divcs {
+  background-color: rgb(220, 143, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+*{
+  -webkit-text-stroke: 1.5px black;
+}
+.floating-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+ }
+ 
+ .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #06073f;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1.5px solid white;
+  -webkit-text-stroke: 0;
+ }
+ 
