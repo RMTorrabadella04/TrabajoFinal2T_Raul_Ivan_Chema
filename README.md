@@ -52,6 +52,7 @@ En está versión hemos revisado y arreglado posibles errores.
 #### ***Versión Final del Proyecto***
   
 Esta versión ya está terminada con todos los cambios
+Enlace del MockUp(Prototipo del proyecto): https://ninjamock.com/Designer/Workplace/192930081/Pginaprincipal
 
  >[!NOTE]
  >
